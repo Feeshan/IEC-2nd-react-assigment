@@ -1,0 +1,63 @@
+.header {
+    padding-top: 10%;
+}
+.header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  .column h1{
+    color: white;
+    font-size: 20px;
+    line-height: 10%;
+    padding-top: 8%;
+
+  }
+  .column h3{
+    color: #2E344E;
+    font-size: 100px;
+    padding-left: 10%;
+    line-height: 20%;
+    
+  }
+  .column h2{
+    color: #898FA5;
+    font-size: 20px;
+    line-height: 300%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2 {
+    float: left;
+    width: 30%;
+  }
+  .column3 {
+    float: left;
+    width: 70%;
+  }
+  .head2 h2 {
+    padding-top: 50px;
+    color: white;
+  }
+.column2 {
+  color: lightgray;
+  padding-top: 3%;
+  font-size: 20px;
+}
+.column3 {
+  padding-top: 3%;
+  color: white;
+}
+.column3 p {
+  color: lightgray;
+  padding-top: 1%;
+}

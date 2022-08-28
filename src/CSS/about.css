@@ -1,0 +1,65 @@
+.header {
+    padding-top: 10%;
+}
+.header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.section {
+    align-items: flex-ends;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 4%;
+  }
+  .section button {
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  .hed {
+    padding-left: 5%;
+    padding-right: 4%;
+  }
+  .hed h1 {
+    font-size: 300%;
+  }
+  .hed p {
+    font-size: 20px;
+    padding-top: 2%;
+    line-height: 1.5;
+    color: lightgrey;
+  }
+  table {
+    color: lightgrey;
+    overflow: hidden;
+    font-size: 20px;
+    padding-top: 2%;
+    line-height: 1.5;
+  }
+  .review {
+	margin-top: 115px;
+}
+
+.review1 {
+    background-color: #191D2B;
+	width: 20%;
+	display: inline-block;
+	padding: 40px;
+	color: white;
+	margin-bottom: 55px;
+    margin-left: 2%;
+	
+}
+.review1 h2 {
+    padding-top: 4%;
+}
+.review1 h3 {
+    color: #4e5058;
+    padding-bottom: 4%;
+}

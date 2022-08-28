@@ -1,0 +1,42 @@
+.header {
+    padding-top: 10%;
+}
+.header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.container33{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.portfolio33{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+.portfolio-box{
+    height: 300px;
+    width: 32%;
+    background-color:#080d1f;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 5s;
+}
+.potfolio-box-1{
+    background-image: url(../image/img_11.png);
+}
+.potfolio-box-2{
+    background-image: url(../image/img_44.png);
+}
+.potfolio-box-3{
+    background-image: url(../image/img_33.png);
+}
+.portfolio-box:hover{
+    background-position: bottom;
+}
